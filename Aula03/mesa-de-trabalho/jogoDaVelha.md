@@ -6,11 +6,11 @@ A atividade consiste em realizar uma partica de jogo da velha, utilizando apenas
 Os alunos deverão se reunir em dupla, escolher entre O e X, e jogar uma partida de jogo da velha, substituíndo a vogal W por X ou O. No fim de cada jogada, o aluno deverá registrar com um commit a coordenada jogada. Exemplo: Realizei a jogada X na coordenada A1.
 
 ## 2. Entrega
-### Nome do jogador X
-Substitua pelo seu nome.
+### Jonathan Santo
+ O
 
-### Nome do jogador O
-Substitua pelo seu nome.
+### Jonathan Santo
+X
 
 ### Realizem as jogadas utilizando o modelo a baixo.
 
@@ -19,7 +19,7 @@ Substitua pelo seu nome.
 | -- | :---:  | :---: | :---: |
 | 1  | X      | W     | W     |
 | 2  | W      | W     | W     |
-| 3  | W      | W     | W     |
+| 3  | O      | W     | W     |
 
 <br><br>
 
