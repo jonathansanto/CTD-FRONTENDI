@@ -1,7 +1,23 @@
 .lista{
     background-color: red;
+
+    /*Espacamento interno */
+    padding: 0;
 }
 
 .lista__item{
+    
+    /*Cores*/
     background-color: gray;
+
+    /*Borda*/
+    border-radius: 5px;
+
+    /*Espaçamento externo*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    /*Espaçamento interno*/
+    padding: 20px;
 }
+
