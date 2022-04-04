@@ -1,8 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
 .lista {
+    /* Caixa flexíveis */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    /*Remover estilo de lista*/
+    list-style: none;
 
     /*Espacamento interno */
     padding-left: 0;
@@ -29,5 +37,26 @@ body {
 
     /*Texto*/
     text-align: center;
-}
 
+    /*Dimensão*/
+    width: 100%;
+}
+/*Projeto mobile first*/
+
+/*Computador*/
+
+@media(min-width: 481px) {
+
+    body {
+        background-color: black;
+    }
+    
+    .lista{
+        flex-direction: row;
+    }
+
+    .lista__item {
+        /*Dimensão*/
+        width: 25%;
+    }
+}
