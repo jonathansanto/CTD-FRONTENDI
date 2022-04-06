@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 16 - Mesa de trabalho</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<article class="login">
-       <h1 class="login__titulo">Fazer login</h1>
-    <form
-        class="formulario"
-        action="https://api.sistema.com/cadastrar"
-        method="post"
-        >
-        <div class="formulario__grupo">
-            <label for="">E-mail ou número de telefone celular</label><br>
-            <input type="text"><br>
-            <button class="botao" type="submit">Continuar</button>
-            
-        </div>
-        
-    
-    </form>
-    <div id="termos" class="termos__uso">
-        Ao continuar, você concorda com as <a href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;nodeId=201283910">Condições de Uso</a> da Amazon. Por favor verifique a <a href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;nodeId=201283950">Notificação de Privacidade</a>, <a href="/gp/help/customer/display.html/?nodeId=201890250">Notificação de Cookies</a> e a <a href="/gp/help/customer/display.html?nodeId=201283970">Notificação de Anúncios Baseados em Interesse</a>.
-    </div>
-      
-    <section>
 
+<body>
+
+    <article class="login">
+        <img src="/Aula16/mesa-de-trabalho/imagens/logo-amazon.png" alt="Logo amazon">
+        <h1 class="login__titulo">Fazer login</h1>
+
+        <form class="formulario" action="https://api.sistema.com/cadastrar" method="post">
+            <div class="formulario__grupo">
+                <label for="">E-mail ou número de telefone celular</label><br>
+                <input type="text"><br>
+                <button class="botao" type="submit">Continuar</button>
+
+            </div>
+
+
+        </form>
+        <div id="termos" class="termos__uso">
+            Ao continuar, você concorda com as <a
+                href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;nodeId=201283910">Condições
+                de Uso</a> da Amazon. Por favor verifique a <a
+                href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;nodeId=201283950">Notificação
+                de Privacidade</a>, <a href="/gp/help/customer/display.html/?nodeId=201890250">Notificação de
+                Cookies</a> e a <a href="/gp/help/customer/display.html?nodeId=201283970">Notificação de Anúncios
+                Baseados em Interesse</a>.
+        </div>
+
+        <section>
+            <select name="select">
+                <option selected>Precisa de ajuda?</option>
+                <option value="redefinicao de senha">Esqueci a senha</option>
+                <option value="outros">Outros problemas com acesso</option>
+                </optgroup>
+
+            </select>
+        </section>
+
+
+
+    <section>
+        <h5>Novo na amazon?</h5>
     </section>
+
+    <button> <a
+            href="https://www.amazon.com.br/ap/register?showRememberMe=true&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2F%3F%26tag%3Dhydrbrabk-20%26ref%3Dnav_ya_signin%26adgrpid%3D79547423725%26hvpone%3D%26hvptwo%3D%26hvadid%3D476995574390%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D2251076351844708148%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D1001773%26hvtargid%3Dkwd-10573980%26hydadcr%3D26346_11604061%26gclid%3DCjwKCAjw0a-SBhBkEiwApljU0lnEjr3ngCPnLbW5oT5949gM8S4YTEC_vOh4gXQ6gQFGAzShMkGPtBoCVT4QAvD_BwE&amp;prevRID=4KN3TDEF2E5SQM6J7CP0&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=brflex&amp;openid.mode=checkid_setup&amp;prepopulatedLoginId=&amp;failedSignInCount=0&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=brflex&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+            class="a-button-text">
+            Criar sua conta da Amazon</a></button>
+    <div class="footer">
+        <span>
+            <a
+                href="https://www.amazon.com.br/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=201283910">Condições
+                de uso</a>
+
+            <a
+                href="https://www.amazon.com.br/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=201283950">Politica
+                de Privacidade</a>
+
+            <a href="https://www.amazon.com.br/gp/help/customer/display.html?nodeId=508510">Ajuda</a>
+
+            <a href="https://www.amazon.com.br/gp/help/customer/display.html/?nodeId=201890250">Cookies</a>
+
+            <a href="https://www.amazon.com.br/gp/help/customer/display.html?nodeId=201283970">Anúncios Baseados em
+                Interesses</a>
+
+
+        </span>
+
+
+    </div>
+
+
 </article>
 
+<div> <span class="copywriters"><br>
+        © 2021-2022 Amazon.com, Inc. ou suas afiliadas
+    </span></div>
 </body>
 </html>
