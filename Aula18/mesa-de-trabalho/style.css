@@ -19,3 +19,16 @@ body {
     O código fonte da atividade começa 
     a partir desse trecho... 
 */
+
+
+.grow {
+
+        transition-property: transform;
+        transition-duration: 0.3s;
+}
+
+.grow:hover{
+    transform: scale(1.07);
+    
+}
+
